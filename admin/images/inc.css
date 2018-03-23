@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+/*******************全局通用****************************/
+body{margin:0px;font-size:13px;-webkit-box-sizing:boder-box;-moz-box-sizing:boder-box;box-sizing:boder-box;}
+table{border-collapse:collapse;border:1px #999 solid; margin:10px auto}
+table tr{height:40px;}
+table tr:hover{background-color:#eee}
+table td{border-collapse:collapse;  border:1px #999 solid;}
+input,select,textarea{margin:5px; height:25px;}
+select{height:30px;}
+input[type=submit],input[type=button]{width:80px;}
+input[type=checkbox],input[type=radio]{width:16px;height:16px}
+.myform{border:solid 5px #ccc; padding:10px;width:400px; background-color:#F3F3F3;margin:20px auto;}
+.submit{padding:5px 10px 5px 10px;}
+.submit:hover{background-color:#999}
+.myspan{display:inline-block}
+.px60{width:60px}
+.ex_page_bottm{border:solid 1px #ccc;display:inline-block;line-height:20px;font-family:simsun;width:40px;cursor:pointer}
+.ex_page_sec{background-color:#eee; }
+.ex_page_link A:visited {text-decoration:none;color:#664444;} 
+.ex_page_link A:link    {text-decoration:none;color:#660000;} 
+.ex_page_link A:hover   {text-decoration:none;color:#664444;font-weight: normal;font-style: normal;} 
+.weizhi{height:30px;line-height:30px;}
+/************************head.php********************/
+.top{width:1022px; margin:auto;background-color:#333;color:#FFF; font-weight:bold;}
+.logo{width:1020px; background:url(logo.png) no-repeat; height:200px;line-height:150px; text-indent:30px; font-size:40px; margin:auto}
+.main{margin:auto; width:1000px; border:solid 1px #999; padding:10px 10px;min-height:800px; height:auto; background-color: #F7F7F7}
+/*会员菜单*/
+.menu{background-color:#FFF; padding:10px; border:solid 1px #999}
+.menu .guest{font-weight:bolder; color:#F60;}
+.menu .member{font-weight:bolder; color:#F60;}
+/***********************index.php*********************/
+.floor{ font-weight:bold; font-size:16px; color:#000; margin:10px 5px;width:120px;height:60px; line-height:60px; text-align:center; border-bottom:solid 5px #F60}
+.seat{width:40px;height:40px;border:solid 1px #666; display:inline-block;line-height:40px; text-align:center;margin:5px;}
+/************************foot.php*********************/
+.bottom{margin:10px auto; background-color:#FFF; width:1000px; border:solid 1px #999; padding:10px; text-align:center}
+/*后台*/
+.status     {font-size:16px; font-weight:bold; color:#666; font-style: italic}
+.welcome    {padding:5px 0px 5px 0px;  border-bottom:solid 1px #999; text-indent:2em}
